@@ -1,0 +1,6 @@
+#!bin/bash
+
+apt install fastfetch -y
+
+echo "You have installed the following commands: `fastfetch`"
+echo "Try them out! :D"
