@@ -2,6 +2,8 @@
 
 apt install fastfetch -y
 
-echo \n\n
+echo 
+echo
 echo 'You have installed the following commands: fastfetch'
-echo "Try them out! :D\n"
+echo "Try them out! :D"
+echo
