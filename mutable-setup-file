@@ -3,4 +3,11 @@
 # called by ./custom-setup.sh
 
 echo "Beginning setup..."
-apt install fastfetch -y
+
+echo "Installing fastfetch."
+apt install fastfetch -y && echo "fastfetch installed!"
+
+echo "Installing binbreak."
+curl -L -o /home/dev/bin/binbreak "https://github.com/epic-64/binbreak/releases/download/v0.2.0-alpha/binbreak-linux" && \
+  chmod +x /home/dev/bin/binbreak && \
+  echo "binbreak installed!"
