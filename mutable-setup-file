@@ -15,11 +15,6 @@ curl -L -o /home/dev/bin/binbreak "https://github.com/epic-64/binbreak/releases/
 echo "Installing cmatrix."
 apt install cmatrix -y && echo "cmatrix installed!"
 
-echo "Installing asciiquarium."
-curl -L -o /home/dev/bin/asciiquarium "https://raw.githubusercontent.com/cmatsuoka/asciiquarium/master/asciiquarium"
-chmod +x /home/dev/bin/asciiquarium
-echo "asciiquarium installed!"
-
 echo "Installing moon-buggy."
 apt install moon-buggy -y && echo "moon-buggy installed!"
 
