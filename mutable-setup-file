@@ -27,4 +27,4 @@ apt install mc -y && echo "mc installed!"
 echo "Installing htop."
 apt install htop -y && echo "htop installed!"
 
-echo "Check out all the following commands that were installed: fastfetch, binbreak, cmatrix, asciiquarium, moon-buggy, greed, mc, htop."
+echo "Check out all the following commands that were installed: fastfetch, binbreak, cmatrix, moon-buggy, greed, mc, htop."
