@@ -16,7 +16,9 @@ echo "Installing cmatrix."
 apt install cmatrix -y && echo "cmatrix installed!"
 
 echo "Installing asciiquarium."
-apt install asciiquarium -y && echo "asciiquarium installed!"
+curl -L -o /home/dev/bin/asciiquarium "https://raw.githubusercontent.com/cmatsuoka/asciiquarium/master/asciiquarium"
+chmod +x /home/dev/bin/asciiquarium
+echo "asciiquarium installed!"
 
 echo "Installing moon-buggy."
 apt install moon-buggy -y && echo "moon-buggy installed!"
@@ -25,9 +27,9 @@ echo "Installing greed."
 apt install greed -y && echo "greed installed!"
 
 echo "Installing mc."
-apt install mc -u && echo "mc installed!"
+apt install mc -y && echo "mc installed!"
 
 echo "Installing htop."
-apt install htop -u && echo "htop installed!"
+apt install htop -y && echo "htop installed!"
 
 echo "Check out all the following commands that were installed: fastfetch, binbreak, cmatrix, asciiquarium, moon-buggy, greed, mc, htop."
