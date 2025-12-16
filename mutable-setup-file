@@ -11,3 +11,23 @@ echo "Installing binbreak."
 curl -L -o /home/dev/bin/binbreak "https://github.com/epic-64/binbreak/releases/download/v0.2.0-alpha/binbreak-linux" && \
   chmod +x /home/dev/bin/binbreak && \
   echo "binbreak installed!"
+
+echo "Installing cmatrix."
+apt install cmatrix -y && echo "cmatrix installed!"
+
+echo "Installing asciiquarium."
+apt install asciiquarium -y && echo "asciiquarium installed!"
+
+echo "Installing moon-buggy."
+apt install moon-buggy -y && echo "moon-buggy installed!"
+
+echo "Installing greed."
+apt install greed -y && echo "greed installed!"
+
+echo "Installing mc."
+apt install mc -u && echo "mc installed!"
+
+echo "Installing htop."
+apt install htop -u && echo "htop installed!"
+
+echo "Check out all the following commands that were installed: fastfetch, binbreak, cmatrix, asciiquarium, moon-buggy, greed, mc, htop."
